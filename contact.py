@@ -2,7 +2,7 @@ from prettytable import PrettyTable
 import sqlite3
 import os
 
-os.chdir('/home/ericjunior/Desktop/project')
+os.chdir('/home/user/Desktop/project')
 
 my_database = sqlite3.connect('connect.db')
 try:
